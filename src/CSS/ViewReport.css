@@ -1,0 +1,33 @@
+.reportDetails > h2, .reportDetails > h1{
+    text-align: center;
+}
+.reportDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.viewanswers, .viewquestions {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.viewquestions {
+    width: 50vw;
+}
+
+.viewanswers {
+    width: 30vw;
+}
+.viewTableHead {
+    background-color: rgb(8, 8, 132);
+    color: white;
+}
+.viewAttachedFiles {
+    text-decoration: underline;
+    color: rgb(8, 8, 132);
+    cursor: pointer;
+}
+.viewAttachedFiles:hover {
+    color: red;
+}

@@ -1,0 +1,16 @@
+.grievanceHead {
+    text-align: center;
+}
+.grievanceRow > td {
+    width: 20vw;
+    border: 1px solid grey;
+}
+.grievanceRow > td > select, .grievanceRow > td > input {
+    width: 20vw;
+    border: none;
+}
+.grievance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

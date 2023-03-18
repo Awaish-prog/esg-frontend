@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 20px;
+    background-color: rgb(78, 25, 129);
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ul > li {
+    cursor: pointer;
+}
+ul > li:hover {
+    text-decoration: underline;
+}

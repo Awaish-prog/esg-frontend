@@ -1,0 +1,23 @@
+.locationQuestions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.locationTable {
+    width: 60vw;
+}
+.locationValues {
+    background-color: rgb(16, 16, 108);
+    color: white;
+}
+.locationRow > td {
+    width: 10vw;
+    font-size: large;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.locationRow > td > input {
+    border: none;
+}

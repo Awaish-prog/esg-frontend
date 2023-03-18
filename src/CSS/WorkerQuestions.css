@@ -1,0 +1,48 @@
+.workerQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workersNav {
+    display: flex;
+    margin: 5px 0 5px 50px;
+    gap: 20px;
+    justify-content: center;
+}
+.workersNav > p {
+    font-size: large;
+    color: gray;
+    cursor: pointer;
+}
+.empHead {
+    text-align: center;
+}
+#tabClass {
+    border-bottom: 3px solid rgb(16, 16, 108);
+    color: rgb(16, 16, 108);
+}
+.label, .value {
+    background-color: rgb(16, 16, 108);
+    width: 15vw;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.number {
+    width: 15vw;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+.number > input {
+    border: none;
+}
+.workerHeading {
+    background-color: rgb(16, 16, 108);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}

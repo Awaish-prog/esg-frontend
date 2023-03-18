@@ -1,0 +1,29 @@
+.typeOfCustomers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.typesTable {
+    width: 50vw;
+}
+.typeValues {
+    background-color: rgb(16, 16, 108);
+    color: white;
+}
+.typesBody > tr > td > input {
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+.typesBody > tr > td {
+    width: 10vw;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.deleteCus{
+    cursor: pointer;
+}

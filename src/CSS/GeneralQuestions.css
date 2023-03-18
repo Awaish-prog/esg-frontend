@@ -1,0 +1,26 @@
+.generalQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.generalTable {
+    width: 70vw;
+}
+.generalAnswer, .generalQuestion {
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.generalQuestion {
+    width: 50vw;
+    background-color: rgb(16, 16, 108);
+    color: white;
+    padding: 5px;
+}
+.generalAnswer {
+    width: 20vw;
+    padding: 0 10px;
+}
+.generalInput {
+    border: none;
+}
